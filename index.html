@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>J’investis</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="J’investis : le guide complet pour épargner, investir et bâtir sa richesse. 18 sujets du niveau débutant au niveau pro, exercices corrigés et sources officielles.">
+<meta name="theme-color" content="#0d3b2a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#accueil" aria-label="J’investis, accueil"><span class="seal">J</span><span>J’<b>investis</b></span></a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a>
+      <a href="#tous">Sujets</a>
+      <a href="#exercices">Exercices</a>
+      <a href="#outils">Outils</a>
+      <a href="#lexique">Lexique</a>
+      <a href="#sources">Sources</a>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Changer de thème clair ou sombre" title="Thème clair / sombre"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+    </nav>
+    <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main id="app" aria-live="polite"></main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#accueil"><span class="seal">J</span><span>J’<b>investis</b></span></a>
+      <p>Éducation financière gratuite, du débutant au pro. Contenu informatif fondé sur des sources publiques ; ce n’est pas un conseil financier personnalisé. Les rendements passés ne garantissent pas les rendements futurs.</p>
+    </div>
+    <div class="links">
+      <a href="#tous">Tous les sujets</a>
+      <a href="#exercices">Exercices</a>
+      <a href="#outils">Calculatrices</a>
+      <a href="#lexique">Lexique</a>
+      <a href="#sources">Sources</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/data/topics-1.js"></script>
+<script src="assets/data/topics-2.js"></script>
+<script src="assets/data/topics-3.js"></script>
+<script src="assets/data/lexique.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
